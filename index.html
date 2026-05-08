@@ -229,7 +229,7 @@ body {
 #parcel-panel{
 position:absolute;
 left:5px;
-bottom:120px;
+bottom:160px;
 
 width:150px;
 background:rgba(0,0,0,0.85);
@@ -376,7 +376,7 @@ letter-spacing:0.8px;
 
 #bottom-logo{
   position: absolute;
-  bottom: 10px;
+  bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
   width: 95vw;
@@ -403,7 +403,7 @@ letter-spacing:0.8px;
 #slogan-box{
   position:absolute;
   left:5px;
-  top:130px;
+  top:110px;
   
   width:220px;
   background:rgba(0,0,0,0.85);
@@ -797,12 +797,13 @@ function animate() {
 
 animate();
 
+
 /* MARKER */
 const corners = [
 	[33.957241, 38.444286],
     
 ];
-	
+
 corners.forEach(coord=>{
   const marker = new mapboxgl.Marker({
     color:'#ffa500',
